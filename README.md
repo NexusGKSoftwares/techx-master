@@ -1,54 +1,103 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/techx)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/techx?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/techx?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/6snv-yu2_c4?style=social)](https://youtu.be/6snv-yu2_c4)
+# Essential Stuff
 
-  <br />
-  <br />
+## Html import links
 
-  <h2 align="center">Techx - Landing page website</h2>
+Google font
 
-  Techx is a fully responsive landing page website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
-
-  <a href="https://codewithsadee.github.io/techx/"><strong>➥ Live Demo</strong></a>
-
-</div>
-
-<br />
-
-### Demo Screeshots
-
-![Techx Desktop Demo](./readme-images/desktop.png "Desktop Demo")
-
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **Techx** locally, run this command on your git bash:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/techx.git
+``` html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+  rel="stylesheet">
 ```
 
-Windows:
+Ionicon
 
-```bash
-git clone https://github.com/codewithsadee/techx.git
+``` html
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 ```
 
-### Contact
+---
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+## Colors
 
-### License
+``` css
+--gold-web-golden: hsl(50, 95%, 56%);
+--spanish-orange: hsl(24, 100%, 45%);
+--persian-green: hsl(175, 80%, 33%);
+--granite-gray: hsl(0, 0%, 40%);
+--spring-green: hsl(143, 85%, 58%);
+--ultramarine: hsl(260, 100%, 44%);
+--blue-violet: hsl(272, 76%, 53%);
+--smoky-black: hsl(0, 0%, 7%);
+--dark-orange: hsl(33, 100%, 50%);
+--winter-sky: hsl(332, 100%, 51%);
+--cultured-1: hsl(0, 0%, 98%);
+--cultured-2: hsl(0, 0%, 95%);
+--cultured-3: hsl(0, 0%, 94%);
+--light-gray: hsl(0, 0%, 80%);
+--alice-blue: hsl(206, 89%, 93%);
+--white_50: hsla(0, 0%, 100%, 0.5);
+--white-1: hsl(0, 0%, 100%);
+--white-2: hsl(0, 0%, 99%);
+--black: hsl(0, 0%, 0%);
+```
 
-This project is **free to use** and does not contains any license.
+## Typography
+
+``` css
+--ff-spartan: 'League Spartan', sans-serif;
+
+--fs-1: 3rem;
+--fs-2: 2.7rem;
+--fs-3: 2.2rem;
+--fs-4: 1.8rem;
+--fs-5: 1.6rem;
+
+--fw-400: 400;
+--fw-500: 500;
+--fw-600: 600;
+--fw-700: 700;
+--fw-900: 900;
+```
+
+## Spacing
+
+``` css
+--section-padding: 60px;
+```
+
+## Shadow
+
+``` css
+--shadow-1: 0 2px 25px hsla(0, 0%, 0%, 0.1);
+--shadow-2: 0 8px 14px hsla(0, 0%, 0%, 0.1);
+--shadow-3: 0 14px 30px hsla(0, 0%, 0%, 0.05);
+```
+
+## Border Radius
+
+``` css
+--radius-6: 6px;
+--radius-12: 12px;
+```
+
+## Gradient
+
+``` css
+--gradient-1: linear-gradient(to right, var(--winter-sky), var(--dark-orange));
+--gradient-2: linear-gradient(to right, var(--ultramarine), var(--blue-violet));
+--gradient-3: linear-gradient(to right, var(--winter-sky), var(--dark-orange));
+--gradient-4: linear-gradient(to right, var(--ultramarine), var(--blue-violet));
+--gradient-5: linear-gradient(to right, var(--persian-green), var(--spring-green));
+--gradient-6: linear-gradient(to right, var(--spanish-orange), var(--gold-web-golden));
+```
+
+## Transition
+
+``` css
+--transition-1: 0.25s ease;
+--transition-2: 0.5s ease;
+--cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+```
